@@ -20,3 +20,6 @@ We proposed to use a modified version of CirceView developed in following work: 
 5) Search: Drill down operations can be performed by a user if the user wants to search for a particular week. It can then be split into days of a week to search for any particular commit for a single day.
 
 6) Produce: If we hover over a particular segment of the ring, then it will produce the details for that week to the user. The details may include data like the name of the collaborator, file name on which commit was performed, time of the commit etc.
+
+
+**Disclaimer**: _Data used in project is public data of tensorflow/tensorflow repository. It is pre-fetched and conditioned to be used in the project. Some part of the data is not real and was used because of time constraints and Github API rate limiting. Github API rate-limiting restricts how much data can be collected over a period of time._
