@@ -1,17 +1,13 @@
-Github Commit Summary
+# Github Commit Summary Project, created as part of 'Data Visualization' Course @UMBC.
 
-we are working with Github commit histories of open source projects. The task in our project is to summarize the number (and possibly size) of commits for code contributors over time.
+Project Demo: https://hvvashistha.github.io/Github-repo-summary/
 
-An average open source project on Github contains between 10-50 contributors.
+Project task summary: **Summarize the number (and possibly size) of commits, along with a contributor's activity on the repository, so as to quantify participation of each contributor relative to others.**
 
-We propose to use a modified version of CirceView as proposed in https://bib.dbvis.de/uploadedFiles/118.pdf
+*An average open source project on Github contains between 10-50 contributors.
+We proposed to use a modified version of CirceView developed in following work: https://bib.dbvis.de/uploadedFiles/118.pdf*
 
-We propose the following modifications.
-Each segment will represent a contributor and there will be upto 52 concentric tracks to represent one entire year in weeks
-Time flows in the opposite direction as more recent commit histories are more relevant and should be given more real estate.
-We will use a monochromatic palette (Black & White) to better show project contributions with contrast. The darkness of a cell represents the number of commits in that week by that contributor. This technique will be used along with bending sticks to provide better comparison on quantities.
-
-Tasks to be addressed:
+#### Tasks to be addressed:
 
 1) Compare: The patterns in the concentric rings placed adjacent for different collaborators will be used to compare the commits performed by them over a period of time.
 
