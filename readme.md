@@ -7,7 +7,11 @@ Project task summary: **Summarize the number (and possibly size) of commits, alo
 *An average open source project on Github contains between 10-50 contributors.
 We proposed to use a modified version of CirceView developed in following work: https://bib.dbvis.de/uploadedFiles/118.pdf*
 
-#### Tasks to be addressed:
+### [Our Result](https://hvvashistha.github.io/Github-repo-summary/)
+![screenshot](Graph_screenshot.png)
+
+
+#### Tasks addressed in the project:
 
 1) Compare: The patterns in the concentric rings placed adjacent for different collaborators will be used to compare the commits performed by them over a period of time.
 
